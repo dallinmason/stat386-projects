@@ -1,0 +1,4 @@
+Mean and standard deviation
+Regression
+Bayes Theorem 
+Probability
