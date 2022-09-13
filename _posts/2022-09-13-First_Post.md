@@ -12,7 +12,7 @@ In this brief post we will talk about some of the joys of Statistics.
 
 
 
-![Figure](https://github.com/dallinmason/stat386-projects/raw/main/assets/images/statistics.jpg)
+![Figure](/images/statistics.jpg)
 
 
 
