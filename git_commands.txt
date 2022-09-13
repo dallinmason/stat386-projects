@@ -1,0 +1,84 @@
+    5  git config list
+    6  git --version
+   15  git status
+   16  git init
+   18  git status
+   28  git status
+   29  git add history.txt statistics.txt 
+   31  git status
+   32  git commit -m 'create stats file'
+   33  git status
+   34  git log
+   36  git status
+   37  git add statistics.txt 
+   38  git status
+   39  git commit -m 'modified stats file'
+   41  git status
+   43  git status
+   46  git status
+   47  git add .gitignore 
+   48  git status
+   49  git commit -m 'ignore files'
+   51  git status
+   70  git clone git@github.com:esnt/stat386-projects.git
+   71  git branch
+   74  git branch
+   75  git status
+   76  git log
+   77  git log --oneline
+   78  git branch music
+   79  git branch
+   80  git switch music
+   81  git branch
+   82  git log --oneline 
+   84  git status
+   85  git add .
+   86  git commit -m 'create music file'
+   87  git status
+   88  git log
+   89  git switch master
+   91  git switch music 
+   93  git switch master
+   94  git merge music
+   96  git branch -d music
+   97  git log --oneline 
+   98  git checkout a9fead7
+  100  git switch mastewr
+  101  git switch master
+  102  git remote -v
+  103  git remote add origin git@github.com:dallinmason/class-example.git
+  104  git remote -v
+  105  git push -u origin main
+  106  git push -u origin master
+  110  git push -u origin master
+  115  git push -u origin master
+  116  git branch music
+  118  git log
+  119  git status
+  120  git branch
+  121  git switch music
+  125  git add .
+  126  git status
+  127  git commit music.txt 'music notes'
+  128  git commit music.txt "music notes"
+  135  git commit -m 'assignemnt commit' ~/Documents/Stat_386/music.txt
+  136  git log --oneline 
+  137  git status
+  138  git rm Class_notes.docx 
+  140  git status
+  141  git rm \~WRL3855.tmp 
+  142  git status
+  143  git rm Class_notes.docx 
+  144  git status
+  145  git branch orchestra
+  146  git switch orchestra 
+  150  git status
+  151  git add orchestra.txt 
+  152  git commit -m "orchestra" ~/Documents/Stat_386/orchestra.txt 
+  153  git switch music
+  154  git merge orchestra
+  156  git branch -d orchestra
+  157  git log --oneline 
+  158  git switch master
+  159  git merge music
+  161  history | grep "git " > git_commands.txt
