@@ -12,7 +12,7 @@ In this brief post we will talk about some of the joys of Statistics.
 
 
 
-![Figure](/images/statistics.jpg)
+![Figure](/assets/images/statistics.jpg)
 
 
 
