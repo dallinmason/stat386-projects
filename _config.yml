@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Super Statistics # Make a title for your blog
+title: Super Statistics! # Make a title for your blog
 email: dallinmason555@gmail.com # Add your email 
 description: >- # this means to ignore newlines until "baseurl:"
  Change the description so that it describes your blog
