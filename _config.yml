@@ -20,8 +20,8 @@
 
 title: Super Statistics! # Make a title for your blog
 email: dallinmason555@gmail.com # Add your email 
-description: >- # this means to ignore newlines until "baseurl:"
- Change the description so that it describes your blog
+description: >- # this"
+ This blog is a place where I post interesting statistical findings and tutorials.
 baseurl: "/stat386-projects" # keep this the same or change it to the name of the repository 
 url: "https://dallinmason.github.io/stat386-projects/" #  change this to "https://<your-github-username>.github.io"
 image: "assets/images/image5.jpg"
