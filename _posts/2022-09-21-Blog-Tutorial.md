@@ -4,7 +4,7 @@ title:  "The Rosetta Stone of Merging Tables in Statistics"
 date:   2022-09-21
 author: Dallin Mason
 description: A tutorial on the differences between R and SAS
-image: /assets/images/blog-image.jpg
+image: /assets/images/Rosetta_Stone.JPG
 ---
 
 #The Rosetta Stone of Merging Tables in Statistics
@@ -12,3 +12,4 @@ image: /assets/images/blog-image.jpg
 
 
 And we have some text
+![Figure](https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Rosetta_Stone.JPG)
