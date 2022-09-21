@@ -14,4 +14,4 @@ image: /assets/images/Rosetta_Stone.JPG
 And we have some text
 
 
-<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Rosetta_Stone.JPG" alt="" style="width:400px;"/>
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Rosetta_Stone.JPG" alt="" style="width:100px;"/>
