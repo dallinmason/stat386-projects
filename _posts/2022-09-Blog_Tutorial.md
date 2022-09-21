@@ -6,3 +6,9 @@ author: Dallin Mason
 description: A tutorial on the differences between R and SAS
 image: /assets/images/blog-image.jpg
 ---
+
+#The Rosetta Stone of Merging Tables in Statistics
+
+
+
+And we have some text
