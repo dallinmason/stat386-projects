@@ -4,7 +4,7 @@ title:  "First Post"
 date:   2022-09-13
 author: Dallin Mason
 description: Short yet informative description about the joys of statistics
-image: /assets/images/blog-image.jpg
+image: /assets/images/image5.jpg
 ---
 #Welcome to the World of Statistics
 
