@@ -7,7 +7,7 @@ description: A tutorial on the differences between R and SAS
 image: /assets/images/Rosetta_Stone.JPG
 ---
 
-#The Rosetta Stone of Merging Tables in Statistics
+# The Rosetta Stone of Merging Tables in Statistics
 
 
 
