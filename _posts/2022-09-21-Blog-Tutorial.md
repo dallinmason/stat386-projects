@@ -39,7 +39,10 @@ We will go through the different merges with examples of how to do so. I will st
 
 We will merge this table with that comparing these same schools and their tuition cost for the same years.
 
-<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table2_Pic.PNG" alt="" style="width:200px;"/>
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/T2.PNG" alt="" style="width:200px;"/>
+
+
+First off we consider a scenario where we want to 
 
 
 
