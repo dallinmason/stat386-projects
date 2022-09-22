@@ -34,6 +34,8 @@ We will start with going through the basics of merging in R.
  
 We will go through the different merges with examples of how to do so. I will start with using a dataset that compares different acclaimed universities and their counts of statistical undergraduates per year. 
 
+### Code:
+
 stat_programs <- read_csv("
 School, Year, BS_Stat
 Berkeley, 2013, 143
@@ -62,12 +64,14 @@ Harvard, 2017, 95
 Harvard, 2018, 100
 ")
 
+
+### Table: 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_Pic.PNG" alt="" style="width:200px;"/>
 
 
 We will merge this table with that comparing these same schools and the amount of Nobel Peace Prizes that have been awarded to that school during that respective year.
 
-
+### Code:
 school_nobel <- read_csv("
 School, Year, Nobel
 Harvard, 2013, 5
@@ -86,16 +90,18 @@ Duke, 2018, 1
 Duke, 2019, 1
 ")
 
-stat_programs%>%
-  left_join(school_tuition,by=c("School","Year"))
   
-  
+ ### Table: 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/T2.PNG" alt="" style="width:200px;"/>
 
 
 First off we consider a scenario where we want to look at the table of statistical undergraduates but add the Nobel Peace Prize count per year column to this table. To do this we will use a left join as shown:
 
 
+stat_programs%>%
+  left_join(school_tuition,by=c("School","Year"))
+  
+  
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Left_Join.PNG" alt="" style="width:200px;"/>
 
 
