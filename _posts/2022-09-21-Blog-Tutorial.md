@@ -109,9 +109,10 @@ Now we will consider the opposite situation where we want to match up the variou
 
 ### Code:
 
+```
 stat_programs%>%
   right_join(school_tuition,by=c("School","Year"))
-  
+``` 
   
 ### Table:
 
