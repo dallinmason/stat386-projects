@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "The Rosetta Stone of Merging Tables in Statistics"
+title:  "The Rosetta Stone of Merging Tables"
 date:   2022-09-21
 author: Dallin Mason
 description: A tutorial on the differences between R and SAS
 image: /assets/images/Rosetta_Stone.JPG
 ---
 
-# The Rosetta Stone of Merging Tables in Statistics
+# The Rosetta Stone of Merging Tables
 
 
 
