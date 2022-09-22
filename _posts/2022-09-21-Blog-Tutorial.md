@@ -98,6 +98,11 @@ Duke, 2019, 1
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/T2.PNG" alt="" style="width:250px;"/>
 
 
+
+
+
+
+
 First off we consider a scenario where we want to look at the table of statistical undergraduates but add the Nobel Peace Prize count per year column to this table. To do this we will use a left join as shown:
 
 ```
@@ -106,6 +111,11 @@ stat_programs%>%
  ``` 
   
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Left_Join.PNG" alt="" style="width:250px;"/>
+
+
+
+
+
 
 Now we will consider the opposite situation where we want to match up the various years schools got Nobel Peace Prizes and exclude the years that they did not. To do this we will use a right join as follows:
 
@@ -121,6 +131,9 @@ stat_programs%>%
 
 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Right_Join.PNG" alt="" style="width:250px;"/>
+
+
+
 
 
 
