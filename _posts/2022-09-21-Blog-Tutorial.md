@@ -24,5 +24,23 @@ Most, if not all of you, have probably encountered situations where two statisti
 
 Among the most common used languages in statistics is R and so you may find yourself using this language in your career if you have not used it before. Another less common programming language is SAS which usually takes a license to use so most people, unless in a healthcare industry, will not use SAS. However, for those who might eventually use it, I have chosen to compare SAS and R in this tutorial and show the differences between merging two tables in these languages.
 
+We will start with going through the basics of merging in R. 
 
-<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Rosetta_Stone.JPG" alt="" style="width:100px;"/>
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/R.png" alt="" style="width:100px;"/>
+
+
+ # R Merging
+ 
+ 
+We will go through the different merges with examples of how to do so. I will start with using a dataset that compares different acclaimed universities and their counts of statistical undergraduates per year. 
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_Pic.PNG" alt="" style="width:200px;"/>
+
+
+We will merge this table with that comparing these same schools and their tuition cost for the same years.
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table2_Pic.PNG" alt="" style="width:200px;"/>
+
+
+
+
