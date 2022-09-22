@@ -104,4 +104,32 @@ stat_programs%>%
   
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Left_Join.PNG" alt="" style="width:200px;"/>
 
+Now we will consider the opposite situation where we want to match up the various years schools got Nobel Peace Prizes and exclude the years that they did not. To do this we will use a right join as follows:
 
+
+### Code:
+
+stat_programs%>%
+  right_join(school_tuition,by=c("School","Year"))
+  
+  
+### Table:
+
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Right_Join.PNG" alt="" style="width:200px;"/>
+
+
+
+Finally we will consider a situation where you would like to find out where this data matches up without any wholes or missing values. To do this we will use an inner join:
+
+### Code:
+
+stat_programs%>%
+  inner_join(school_tuition,by=c("School","Year"))
+  
+  
+  
+### Table: 
+
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Inner_Join.PNG" alt="" style="width:200px;"/>
