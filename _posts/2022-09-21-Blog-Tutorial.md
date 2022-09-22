@@ -36,6 +36,7 @@ We will go through the different merges with examples of how to do so. I will st
 
 ### Code:
 
+```
 stat_programs <- read_csv("
 School, Year, BS_Stat
 Berkeley, 2013, 143
@@ -63,7 +64,7 @@ Harvard, 2016, 63
 Harvard, 2017, 95
 Harvard, 2018, 100
 ")
-
+```
 
 ### Table: 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_Pic.PNG" alt="" style="width:250px;"/>
@@ -72,6 +73,7 @@ Harvard, 2018, 100
 We will merge this table with that comparing these same schools and the amount of Nobel Peace Prizes that have been awarded to that school during that respective year.
 
 ### Code:
+```
 school_nobel <- read_csv("
 School, Year, Nobel
 Harvard, 2013, 5
@@ -89,6 +91,7 @@ Duke, 2015, 1
 Duke, 2018, 1
 Duke, 2019, 1
 ")
+```
 
   
 ### Table: 
@@ -97,10 +100,10 @@ Duke, 2019, 1
 
 First off we consider a scenario where we want to look at the table of statistical undergraduates but add the Nobel Peace Prize count per year column to this table. To do this we will use a left join as shown:
 
-
+```
 stat_programs%>%
   left_join(school_tuition,by=c("School","Year"))
-  
+ ``` 
   
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Left_Join.PNG" alt="" style="width:250px;"/>
 
@@ -124,10 +127,10 @@ stat_programs%>%
 Finally we will consider a situation where you would like to find out where this data matches up without any wholes or missing values. To do this we will use an inner join:
 
 ### Code:
-
+```
 stat_programs%>%
   inner_join(school_tuition,by=c("School","Year"))
-  
+```  
   
   
 ### Table: 
