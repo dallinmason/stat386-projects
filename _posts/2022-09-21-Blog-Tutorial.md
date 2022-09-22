@@ -29,21 +29,73 @@ We will start with going through the basics of merging in R.
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/R.png" alt="" style="width:100px;"/>
 
 
- # R Merging
+ ## R Merging
  
  
 We will go through the different merges with examples of how to do so. I will start with using a dataset that compares different acclaimed universities and their counts of statistical undergraduates per year. 
 
+stat_programs <- read_csv("
+School, Year, BS_Stat
+Berkeley, 2013, 143
+Berkeley, 2014, 160
+Berkeley, 2015, 215
+Berkeley, 2016, 174
+Berkeley, 2017, 215
+Berkeley, 2018, 226
+BYU, 2013, 35
+BYU, 2014, 42
+BYU, 2015, 57
+BYU, 2016, 69
+BYU, 2017, 101
+BYU, 2018, 136
+Duke, 2013, 8
+Duke, 2014, 14
+Duke, 2015, 23
+Duke, 2016, 33
+Duke, 2017, 40
+Duke, 2018, 33
+Harvard, 2013, 23
+Harvard, 2014, 36
+Harvard, 2015, 43
+Harvard, 2016, 63
+Harvard, 2017, 95
+Harvard, 2018, 100
+")
+
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_Pic.PNG" alt="" style="width:200px;"/>
 
 
-We will merge this table with that comparing these same schools and their tuition cost for the same years.
+We will merge this table with that comparing these same schools and the amount of Nobel Peace Prizes that have been awarded to that school during that respective year.
 
+
+school_nobel <- read_csv("
+School, Year, Nobel
+Harvard, 2013, 5
+Harvard, 2014, 1
+Harvard, 2016, 3
+Harvard, 2018, 1
+Harvard, 2019, 4
+Berkeley, 2013, 1
+Berkeley, 2014, 1
+Berkeley, 2015, 2
+Berkeley, 2016, 1
+Berkeley, 2017, 3
+Berkeley, 2018, 2
+Duke, 2015, 1
+Duke, 2018, 1
+Duke, 2019, 1
+")
+
+stat_programs%>%
+  left_join(school_tuition,by=c("School","Year"))
+  
+  
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/T2.PNG" alt="" style="width:200px;"/>
 
 
-First off we consider a scenario where we want to 
+First off we consider a scenario where we want to look at the table of statistical undergraduates but add the Nobel Peace Prize count per year column to this table. To do this we will use a left join as shown:
 
 
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Left_Join.PNG" alt="" style="width:200px;"/>
 
 
