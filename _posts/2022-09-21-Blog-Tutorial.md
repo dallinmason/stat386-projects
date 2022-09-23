@@ -26,10 +26,14 @@ Among the most common used languages in statistics is R and so you may find your
 
 We will start with going through the basics of merging in R. 
 
+## R Merging
+
+
+
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/R.png" alt="" style="width:100px;"/>
 
 
-## R Merging
+
  
  
 We will go through the different merges with examples of how to do so. I will start with using a dataset that compares different acclaimed universities and their counts of statistical undergraduates per year. 
