@@ -150,3 +150,21 @@ stat_programs%>%
 
 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Inner_Join.PNG" alt="" style="width:250px;"/>
+
+
+
+
+So as you can see, it is not too complicated to merge tables together in R. But what if you want to perform the same commands in SAS?
+
+## SAS
+
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/SAS.webp" alt="" style="width:250px;"/>
+
+
+
+
+
+
+
+
