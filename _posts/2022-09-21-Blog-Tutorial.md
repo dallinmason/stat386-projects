@@ -166,7 +166,9 @@ So as you can see, it is not too complicated to merge tables together in R. But 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/SAS.webp" alt="" style="width:250px;"/>
 
 
+We will now demonstrate the same functions that we executed in R but now for SAS. The interesting thing about SAS is that to be able to perform merging operations we actually use SQL syntax that SAS understands and then it converts what we tell it to do into SAS formatted tables. So if you master these SQL commands we use in SAS you will actually be set to do the same in SQL! It's a two for one bonus! 
 
+To demonstrate this we will use a different dataset in which
 
 
 
