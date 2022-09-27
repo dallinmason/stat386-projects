@@ -168,9 +168,89 @@ So as you can see, it is not too complicated to merge tables together in R. But 
 
 We will now demonstrate the same functions that we executed in R but now for SAS. The interesting thing about SAS is that to be able to perform merging operations we actually use SQL syntax that SAS understands and then it converts what we tell it to do into SAS formatted tables. So if you master these SQL commands we use in SAS you will actually be set to do the same in SQL! It's a two for one bonus! 
 
-To demonstrate this we will use a different dataset in which
+To demonstrate this we will use a different couple of datasets in which there are certain employees of varying positions and we have certain data about them including their past sales over the past years.
+
+We will demonstrate our knowledge of SAS and SQL with these datasets. First, we will start with our left join.
+
+## Code
+```
+options validvarname=v7;
+proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees.xlsx" out= employees dbms=xlsx replace;
+run;
+proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees_sales.xlsx" out=employees_s dbms=xlsx replace;
+run;
+
+*proc sql to combine tables;
+proc sql;
+select employees.name, age, position, group, state, month, sales, year
+	from employees as x left join employees_s as y
+	on x.name=y.name;
+ ```
+
+We simply import these files and then pipe this all through proc sql which is such a huge advantage of SAS. 
 
 
 
 
 
+
+## Table
+
+
+
+So as you can see, the left join executed well. There is a little bit of difference from R as you can see but it is not too terrible to be able to follow the syntax and reproduce these tables and even make adjustments to them as will be demonstrated with our next example.
+
+That is that of a right join in SAS. 
+
+## Code
+```
+options validvarname=v7;
+proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees.xlsx" out= employees dbms=xlsx replace;
+run;
+proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees_sales.xlsx" out=employees_s dbms=xlsx replace;
+run;
+
+*proc sql to combine tables;
+proc sql;
+select employees.name, age, position, group, state, month, sales, year
+	from employees as x right join employees_s as y
+	on x.name=y.name;
+```
+
+
+
+
+## Table
+
+
+
+
+As you can see we literally only changed one word. So that is very simple and easy to mess around with.
+
+Finally we will demonstrate how to use an inner join using SAS.
+
+
+## Code
+```
+options validvarname=v7;
+proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees.xlsx" out= employees dbms=xlsx replace;
+run;
+proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees_sales.xlsx" out=employees_s dbms=xlsx replace;
+run;
+
+*proc sql to combine tables;
+proc sql;
+select employees.name, age, position, group, state, month, sales, year
+	from employees as x inner join employees_s as y
+	on x.name=y.name;
+```
+
+
+
+## Table
+
+
+
+So as you can see. SAS is not that hard to mess around with, it just takes a little getting familiar with the syntax. 
+
+Overall, we can see the differences between R and SAS and how both are beneficial to merging datasets it just takes familiarizing oneself with how to do it in these specific languages. 
