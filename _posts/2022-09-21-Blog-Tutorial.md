@@ -257,4 +257,12 @@ select employees.name, age, position, group, state, month, sales, year
 
 So as you can see. SAS is not that hard to mess around with, it just takes a little getting familiar with the syntax. 
 
-Overall, we can see the differences between R and SAS and how both are beneficial to merging datasets it just takes familiarizing oneself with how to do it in these specific languages. 
+Overall, we can see the differences between R and SAS and how both are beneficial in merging datasets it just takes familiarizing oneself with how to do it in these specific languages. One suggestion I have been counseled to do and I pass it along to you is to create some sort of documentation where you can reference how to do similar commands in different programming environments so as to avoid confusion! It will help you become a more efficient programmer over time!
+
+
+For more information about these topics I have provided a couple of websites I find helpful.
+
+
+
+* (https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/fedsqlref/p1q7agzgxs9ik5n1p7k3sdft0u9u.htm)
+* (https://www.rdocumentation.org/packages/plyr/versions/1.8.7/topics/join)
