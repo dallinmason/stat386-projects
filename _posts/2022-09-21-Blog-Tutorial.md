@@ -220,12 +220,6 @@ That is that of a right join in SAS.
 
 ## Code
 ```
-options validvarname=v7;
-proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees.xlsx" out= employees dbms=xlsx replace;
-run;
-proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees_sales.xlsx" out=employees_s dbms=xlsx replace;
-run;
-
 *proc sql to combine tables;
 proc sql;
 select employees.name, age, position, group, state, month, sales, year
@@ -249,13 +243,6 @@ Finally we will demonstrate how to use an inner join using SAS.
 
 ## Code
 ```
-options validvarname=v7;
-proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees.xlsx" out= employees dbms=xlsx replace;
-run;
-proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees_sales.xlsx" out=employees_s dbms=xlsx replace;
-run;
-
-*proc sql to combine tables;
 proc sql;
 select employees.name, age, position, group, state, month, sales, year
 	from employees as x inner join employees_s as y
