@@ -264,6 +264,6 @@ For more information about these topics I have provided a couple of websites I f
 
 
 
-* [https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/fedsqlref/p1q7agzgxs9ik5n1p7k3sdft0u9u.htm](https://rforhr.com/join.html)
-* [https://www.rdocumentation.org/packages/plyr/versions/1.8.7/topics/join](https://rforhr.com/join.html)
+* [https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/fedsqlref/p1q7agzgxs9ik5n1p7k3sdft0u9u.htm]([https://rforhr.com/join.html](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/fedsqlref/p1q7agzgxs9ik5n1p7k3sdft0u9u.htm]))
+* [https://www.rdocumentation.org/packages/plyr/versions/1.8.7/topics/join]([https://rforhr.com/join.html](https://www.rdocumentation.org/packages/plyr/versions/1.8.7/topics/join))
 * [https://rforhr.com/join.html](https://rforhr.com/join.html)
