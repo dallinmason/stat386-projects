@@ -3,7 +3,7 @@ layout: post
 title:  "The Rosetta Stone of Merging Tables"
 date:   2022-09-21
 author: Dallin Mason
-description: A tutorial on the differences between R and SAS
+description: An excellent tutorial on the syntax differences between merging tables in R vs. SAS
 image: /assets/images/Rosetta_Stone.JPG
 ---
 
