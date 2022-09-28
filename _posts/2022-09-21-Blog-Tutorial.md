@@ -220,7 +220,6 @@ That is that of a right join in SAS.
 
 ## Code
 ```
-*proc sql to combine tables;
 proc sql;
 select employees.name, age, position, group, state, month, sales, year
 	from employees as x right join employees_s as y
