@@ -170,7 +170,9 @@ We will now demonstrate the same functions that we executed in R but now for SAS
 
 To demonstrate this we will use a different couple of datasets in which there are certain employees of varying positions and we have certain data about them including their past sales over the past years.
 
-We will demonstrate our knowledge of SAS and SQL with these datasets. First, we will start with our left join.
+We will demonstrate our knowledge of SAS and SQL with these datasets. 
+
+We will import our tables using this code which creates two tables: one of employees with information about them and another called employees_s which demonstrates the sales per month of these employees.
 
 ## Code
 ```
@@ -179,7 +181,20 @@ proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees.xlsx" out
 run;
 proc import datafile="/home/u49683781/EPG1V2/Assignment_work/employees_sales.xlsx" out=employees_s dbms=xlsx replace;
 run;
+```
 
+## Tables
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_SAS.PNG" alt="" style="width:250px;"/>
+
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table2_SAS.PNG" alt="" style="width:250px;"/>
+
+
+First, we will start with our left join.
+
+## Code
+```
 *proc sql to combine tables;
 proc sql;
 select employees.name, age, position, group, state, month, sales, year
@@ -197,6 +212,7 @@ We simply import these files and then pipe this all through proc sql which is su
 ## Table
 
 
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Left_Join_SAS.PNG" alt="" style="width:250px;"/>
 
 So as you can see, the left join executed well. There is a little bit of difference from R as you can see but it is not too terrible to be able to follow the syntax and reproduce these tables and even make adjustments to them as will be demonstrated with our next example.
 
@@ -223,6 +239,7 @@ select employees.name, age, position, group, state, month, sales, year
 ## Table
 
 
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Right_Join_SAS.PNG" alt="" style="width:250px;"/>
 
 
 As you can see we literally only changed one word. So that is very simple and easy to mess around with.
@@ -250,6 +267,7 @@ select employees.name, age, position, group, state, month, sales, year
 ## Table
 
 
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Inner_Join_SAS.PNG" alt="" style="width:250px;"/>
 
 So as you can see. SAS is not that hard to mess around with, it just takes a little getting familiar with the syntax. 
 
