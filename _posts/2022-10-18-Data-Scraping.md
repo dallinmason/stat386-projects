@@ -20,7 +20,7 @@ All of these questions and more we hope to be able to explain with this dataset 
 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/License.jpg" alt="" style="width:250px;"/>
 
-First off it is important to understand a little bit about the climate of Utah. Utah is a state that always claims to have the greatest snow on Earth. It proudly bears all 4 seasons and the almost the majority of the year is spent during the winter months it being part of the Rocky Mountain region of the United States. 
+First off it is important to understand a little bit about the climate of Utah. Utah is a state that always claims to have the greatest snow on Earth. It proudly bears all 4 seasons and the almost the majority of the year is spent during the winter months it being part of the Rocky Mountain region of the United States. Summers generally don't rise about 102 °F during their hottest parts and winter temperatures generally never dip below 0 °F.  
 
 
 ## Objective
