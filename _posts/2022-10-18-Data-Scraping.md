@@ -79,7 +79,7 @@ Our next step will be parsing and sifting through raw html code to be able to de
 First off we will take a look at the page we have scraped from and the format the data is in. 
 
 
-<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Graph.JPG" alt="" style="width:700px;"/>
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Graph.PNG" alt="" style="width:700px;"/>
 
 
 So from this we can see that our data comes in a graph like format with all of these variables together. However, we don't want to scrape the wind direction or gust as this doesn't really help us in any way in determining shifts in the seasonal weather patterns as winds can change directions so easily and it could be just telling us where a storm is blowing in or where a front is coming from. 
@@ -93,7 +93,7 @@ page_soup.findAll("div",{"id":"day1"})
 
 ```
 
-<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Sift.JPG" alt="" style="width:700px;"/>
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Sift.PNG" alt="" style="width:700px;"/>
 
 
 ```
