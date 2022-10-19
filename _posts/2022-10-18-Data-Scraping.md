@@ -15,7 +15,12 @@ Weather plays an important factor in decision making whether we consciously choo
 or not. Thus an analysis of the past weather can be valuable. This is of great interest to many people 
 as it can help predict how certain holidays such as Halloween or Thanksgiving might play out. Will it 
 be too warm or too cold to eat outside? Does there appear to be much wind during these transition months?
-All of these questions and more we hope to be able to explain with this dataset. 
+All of these questions and more we hope to be able to explain with this dataset which we will gather and use here in future posts.
+
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/License.jpg" alt="" style="width:250px;"/>
+
+First off it is important to understand a little bit about the climate of Utah. Utah is a state that always claims to have the greatest snow on Earth. It proudly bears all 4 seasons and the almost the majority of the year is spent during the winter months it being part of the Rocky Mountain region of the United States. 
 
 
 ## Objective
