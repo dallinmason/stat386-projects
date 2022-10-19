@@ -153,6 +153,7 @@ And finally after doing that, we converted our results to a pdf and listo! We we
 
 Overall, the process of web scraping is one that is tricky to learn at first, but once you get it, it becomes quite satisfying and the possibilities are endless! We definitely ran into several problems trying to parse through the raw html code and figure out exactly how to extract the tags and information that we wanted but as we were able to get through that, it turned out to be not too bad after all. 
 
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/web.jpg" alt="" style="width:500px;"/>
 
 I definitely recommend getting your hands wet with some data to be able to efficiently and effectively learn how to scrape as this is very beneficial to your retaining these concepts. It will also potentially provide you with satisfaction that is quite exhilarating!
 
