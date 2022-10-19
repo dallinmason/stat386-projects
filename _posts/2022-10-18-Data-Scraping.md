@@ -96,21 +96,56 @@ page_soup.findAll("div",{"id":"day1"})
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Sift.PNG" alt="" style="width:700px;"/>
 
 
+
+Now that we see this div tag will help us find what we want we parse through the html and grab all of the days that are on the page and store it into a variable using this code: 
 ```
 containers = page_soup.findAll("table",{"class":"table table-bordered pastwx_grid"})
 
 ```
 
+### 3. Creating The Table
+
+This can be perhaps the most difficult yet most satisfying step. The goal here it to be able to create a dataset from the scraped data. We want to create a couple for loops in python code that loop through all of the containers that we have grabed, which represent all of the days. As they do that, we want them to grab the variables we want which would be the date, time, temperature, humidity, dew point, barometric pressure, and wind speed. 
+
+Creating this table is great practice with all sorts of common python commands so I highly recommend going through the process yourself. I will merely show a little bit of my code that I used to grab this data. 
 
 
 
+ ```
+ data = { 'date':[], 'time':[], 'temp':[], 'hum':[], 'dew':[],'bar':[],'speed':[]}
+for container in containers:
+    n += 1
+    for j in container.find_all('tbody'):
+        data['date'].append(n)
+        data['time'].append([container.text for container in j.find_all('td')][0])
+        data['temp'].append([container.text for container in j.find_all('td')][1])
+        data['hum'].append([container.text for container in j.find_all('td')][2])
+        data['dew'].append([container.text for container in j.find_all('td')][3])
+        data['bar'].append([container.text for container in j.find_all('td')][4])
+        data['speed'].append([container.text for container in j.find_all('td')][5])
+ 
+ ```
+
+And we use pd.DataFrame to turn this into a dataframe and with a little bit of cleaning we have our dataset:
+
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/data.PNG" alt="" style="width:700px;"/>
 
 
+### 4. Filtering
 
+One could technically call this good and this would be a successful web scrape but we decided to go a little bit further and filter our data a little bit more as we want to see how the weather at specific times during the day changes during the transition from summer to fall. 
 
+To do this, we used a few filter commands as shown: 
 
+```
 
+result = pd.DataFrame()
+result = pd.concat([df1[df1.Time == '6:00 AM'],result])
+result = pd.concat([df1[df1.Time == '8:00 AM'],result])
+result = pd.concat([df1[df1.Time == '10:00 AM'],result])
+......
 
-
+```
+And finally after doing that, we converted our results to a pdf and listo! We were done! 
 
 
