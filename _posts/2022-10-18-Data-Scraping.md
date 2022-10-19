@@ -51,7 +51,7 @@ Also, for full code and data visit [my repository](https://github.com/dallinmaso
 ## Steps
 
 ### 1. Initial Scrape 
-To be able to scrape from any website, we need to establish a connection with it and then obtain the wanted information. I used the requests package in Python to be able to do this and then opened the connection, saved the data into an object, and then closed the connection. 
+To be able to scrape from any website, we need to establish a connection with it and then obtain the wanted information. First off I verified that I had a valid connection with no error codes to make sure I had permission to scrape from this website. I then used the requests package in Python to be able to do establish a connection and then opened it, saved the data into an object, and then closed the connection. 
 
 
 
@@ -147,5 +147,17 @@ result = pd.concat([df1[df1.Time == '10:00 AM'],result])
 
 ```
 And finally after doing that, we converted our results to a pdf and listo! We were done! 
+
+
+## Conclusion
+
+Overall, the process of web scraping is one that is tricky to learn at first, but once you get it, it becomes quite satisfying and the possibilities are endless! We definitely ran into several problems trying to parse through the raw html code and figure out exactly how to extract the tags and information that we wanted but as we were able to get through that, it turned out to be not too bad after all. 
+
+
+I definitely recommend getting your hands wet with some data to be able to efficiently and effectively learn how to scrape as this is very beneficial to your retaining these concepts. It will also potentially provide you with satisfaction that is quite exhilarating!
+
+If you liked following along with how I scraped this weather data stay tuned!! Next up we will go through and perform some Exploratory Data Analysis on the variables in our dataset and see what information about the changing seasons in Utah this data can give us!
+
+Until then fellow programmers! 
 
 
