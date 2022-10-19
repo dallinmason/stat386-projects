@@ -4,12 +4,12 @@ title:  "A Walkthrough of Obtaining Past Weather Data for Salt Lake City"
 date:   2022-10-18
 author: Dallin Mason
 description: A great explanation about how to scrape a website in order to obtain past weather data.
-image: /assets/images/Storm.JPG
+image: /assets/images/Storm.jpeg
 ---
 
 # A Walkthrough of Obtaining Past Weather Data for Salt Lake City
 
-
+<img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Fall.jpg" alt="" style="width:500px;"/>
 
 Weather plays an important factor in decision making whether we consciously choose to ignore it 
 or not. Thus an analysis of the past weather can be valuable. This is of great interest to many people 
