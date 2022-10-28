@@ -43,8 +43,8 @@ We will go through the different merges with examples of how to do so. I will st
 ```
 stat_programs <- read_csv("data.csv")
 ```
-For the data click on this [link](https://raw.githubusercontent.com/dallinmason/stat386-projects/main/data.csv). 
-I read in the data using read_csv. For more information on read_csv and how this works in reading in data efficiently visit [https://www.listendata.com/2014/06/proc-sql-merging.html](https://www.listendata.com/2014/06/proc-sql-merging.html) 
+For the data visit this [link](https://raw.githubusercontent.com/dallinmason/stat386-projects/main/data.csv). 
+I read in the data using read_csv. For more information on read_csv and how this works in reading in data efficiently visit this website on [read_csv](https://r4ds.had.co.nz/data-import.html). 
 ### Table: 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_Pic.PNG" alt="" style="width:250px;"/>
 
