@@ -43,7 +43,7 @@ We will go through the different merges with examples of how to do so. I will st
 ```
 stat_programs <- read_csv("data.csv")
 ```
-For the data visit this [link](https://raw.githubusercontent.com/dallinmason/stat386-projects/main/data.csv). 
+For the Statistical Undergraduate data at different Universities visit this [link](https://raw.githubusercontent.com/dallinmason/stat386-projects/main/Graduates.csv). 
 I read in the data using read_csv. For more information on read_csv and how this works in reading in data efficiently visit this website on [read_csv](https://r4ds.had.co.nz/data-import.html). 
 ### Table: 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_Pic.PNG" alt="" style="width:250px;"/>
@@ -53,25 +53,9 @@ We will merge this table with that comparing these same schools and the amount o
 
 ### Code:
 ```
-school_nobel <- read_csv("
-School, Year, Nobel
-Harvard, 2013, 5
-Harvard, 2014, 1
-Harvard, 2016, 3
-Harvard, 2018, 1
-Harvard, 2019, 4
-Berkeley, 2013, 1
-Berkeley, 2014, 1
-Berkeley, 2015, 2
-Berkeley, 2016, 1
-Berkeley, 2017, 3
-Berkeley, 2018, 2
-Duke, 2015, 1
-Duke, 2018, 1
-Duke, 2019, 1
-")
+school_nobel <- read_csv("Nobel.csv")
 ```
-
+For the Nobel Peace Prize data among various  visit this [link](https://raw.githubusercontent.com/dallinmason/stat386-projects/main/Nobel.csv). 
   
 ### Table: 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/T2.PNG" alt="" style="width:250px;"/>
