@@ -41,35 +41,10 @@ We will go through the different merges with examples of how to do so. I will st
 ### Code:
 
 ```
-stat_programs <- read_csv("
-School, Year, BS_Stat
-Berkeley, 2013, 143
-Berkeley, 2014, 160
-Berkeley, 2015, 215
-Berkeley, 2016, 174
-Berkeley, 2017, 215
-Berkeley, 2018, 226
-BYU, 2013, 35
-BYU, 2014, 42
-BYU, 2015, 57
-BYU, 2016, 69
-BYU, 2017, 101
-BYU, 2018, 136
-Duke, 2013, 8
-Duke, 2014, 14
-Duke, 2015, 23
-Duke, 2016, 33
-Duke, 2017, 40
-Duke, 2018, 33
-Harvard, 2013, 23
-Harvard, 2014, 36
-Harvard, 2015, 43
-Harvard, 2016, 63
-Harvard, 2017, 95
-Harvard, 2018, 100
-")
+stat_programs <- read_csv("data.csv")
 ```
-
+For the data click on this [link](https://raw.githubusercontent.com/dallinmason/stat386-projects/main/data.csv). 
+I read in the data using read_csv. For more information on read_csv and how this works in reading in data efficiently visit [https://www.listendata.com/2014/06/proc-sql-merging.html](https://www.listendata.com/2014/06/proc-sql-merging.html) 
 ### Table: 
 <img src="https://raw.githubusercontent.com/dallinmason/stat386-projects/main/assets/images/Table1_Pic.PNG" alt="" style="width:250px;"/>
 
